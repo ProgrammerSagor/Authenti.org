@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Luckiest+Guy&family=Montserrat:ital,wght@1,300&family=Mulish:wght@400;700&family=Nunito:wght@400;600;700&family=Poppins:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,400;1,300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Luckiest+Guy&family=Montserrat:ital,wght@0,300;1,300&family=Mulish:wght@400;700&family=Nunito:wght@400;600;700&family=Poppins:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,400;1,300&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.recipe-type {
+	width: 341px;
+	height: 852px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+    overflow: hidden;
+}
+
+.recipe-lyer {
+    width: 100%;
+	height: 38px;
+	background: #FF8000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border-bottom: 1px solid #000000;
+}
+.recipe-leyer {
+	width: 100%;
+	height: 38px;
+	background: #09A6FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border-bottom: 1px solid #000000;
+    
+}
+
+
+.recipe-lyer span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a1a1a;
+    
+}
+.recipe-leyer span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a1a1a;
+    
+}
+
+
+
+
+
+
+.Cultural {
+	width: 360px;
+	height: 814px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+.lab-type {
+    width: 321px;
+	height: 610px;
+    border: 1px solid #000000;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+
+.lap-leyar span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a1a1a;
+
+}
+.lap-leyar {
+    width: 100%;
+    height: 38px;
+    background: #09A6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+
+}
+
+.holiday {
+	width: 364px;
+	height: 340px;
+    border: 1px solid #000000;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+.holiday-leyar span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a1a1a;
+}
+.holiday-leyar {
+    width: 100%;
+    height: 38px;
+    background: #09A6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+}
+
+.lab {
+    width: 341px;
+    height: 251px;
+    border: 1px solid #000000;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.lab-leyar span {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a1a1a;
+}
+.lab-leyar {
+    width: 100%;
+    height: 38px;
+    background:#09A6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+}
+
+.medical {
+    width: 341px;
+    height: 228px;
+    border: 1px solid #000000;
+	border-radius: 20px;
+	overflow: hidden;
+	margin-left: 10px;
+}
+
+.medical-leyar {
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1a1a1a;
+}
+.medical-leyar {
+    width: 100%;
+    height: 38px;
+    background: #09A6FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+}
+
+.holiday-group {
+	display: flex;
+	width: 640px;
+}
+
+
+.recipe-type p {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.food-item {
+	display: flex;
+}
+
+input {
+	margin-right: 5px;
+}
+.food {
+	width: 95%;
+	margin: auto;
+}
+.foodes {
+	width: 50%;
+}
+.foodes span{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.food {
+    display: flex;
+}
+
+.left-item {
+	width: 100px;
+	margin-left: 15px;
+}
+.right-item {
+	width: 100px;
+	margin-left: 15px;
+}
+
+ul li {
+    list-style: square;
+}
+
+.done-btn {
+	
+	width: 90px;
+	height: 15px;
+	margin: auto;
+	background: #BABDC7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.done-btn a{
+	
+	text-decoration: none;
+	text-align: center;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 7px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222B45;
+    
+}
+
+.medical-aria {
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}

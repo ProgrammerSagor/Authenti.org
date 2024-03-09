@@ -1,0 +1,20 @@
+.First input {
+	border: none;
+	outline: none;
+	border-bottom: 1px dashed #000;
+	padding-left: 5px;
+}
+#deshed {
+	border: none;
+	outline: none;
+	border-bottom: 1px dashed #000;
+	padding-left: 5px;
+}
+
+#deshed-all {
+	border: none;
+	outline: none;
+	border-bottom: 1px dashed #000;
+	padding-left: 5px;
+    width: 190px;
+}

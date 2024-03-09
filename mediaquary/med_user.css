@@ -1,0 +1,45 @@
+.closebtn {
+    display: none;
+}
+@media screen and (max-width: 1000px){
+
+
+
+}
+
+@media screen and (max-width: 600px){
+    .closebtn {
+        display: block;
+    }
+
+
+    .text-footer {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .contant {
+        overflow: inherit;
+    }
+
+    .text-footer {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
